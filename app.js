@@ -42,9 +42,7 @@
          console.log('>>>>loend');
 
          //simulatsioon laeb kaua
-         window.setTimeout(function(){
-           document.querySelector('.loading').innerHTML = 'laetud!';
-         }, 3000);
+        
 
        }
      },
