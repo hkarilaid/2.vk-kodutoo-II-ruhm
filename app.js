@@ -181,6 +181,7 @@
          }
      },
 	 
+	 
 
      addNewClick: function(event){
        //salvestame purgi
@@ -239,9 +240,12 @@
        //console.log(location.hash);
        document.querySelector('.'+this.currentRoute).className += ' active-menu';
 
-     }
+     },
+	 
 
    }; // MOOSIPURGI LÕPP
+   
+   
 
    var Jar = function(new_id, new_title, new_ingredients){
      this.id = new_id;
@@ -298,6 +302,8 @@
 
      }
    };
+   
+   
    
    //HELPER
     function guid(){
